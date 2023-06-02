@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean class="CollectionList.Student" name="s1">
+        <property name = "Id">
+         <list>
+        <value>1</value>
+         <value>2</value>
+          <value>3</value>
+           <value>4</value>
+            <value>5</value>
+         </list>
+         </property>
+        <property name = "Fname">
+         <list>
+        <value>roja</value>
+         <value>liza</value>
+          <value>pooja</value>
+           <value>rosy</value>
+            <value>rojo</value>
+         </list>
+         </property>
+         <property name = "Lname">
+         <list>
+        <value>meher</value>
+         <value>sing</value>
+          <value>shaoo</value>
+           <value>tudu</value>
+            <value>swain</value>
+         </list>
+         </property>
+          <property name = "Email">
+         <list>
+        <value>meher@gmail.com</value>
+         <value>sing@gmail.com</value>
+          <value>shaoo@gmail.com</value>
+           <value>tudu@gmail.com</value>
+            <value>swain@gmail.com</value>
+         </list>
+         </property>
+        <property name = "Mobile">
+        <list>
+        <value>9632145689</value>
+         <value>9632145689</value>
+          <value>9632145689</value>
+           <value>9632145689</value>
+         </list>
+         </property>
+         
+           </bean>
+   </beans>
